@@ -57,7 +57,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/background.jpg') no-repeat top center ;
+  background: url('images/experience-background.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -95,8 +95,12 @@ header .profile-image:hover {
   color: #57C09C;
 }
 
+.flex{
+  padding: 20px;
+}
+
 .card {
-  margin: 30px;
+  margin: 30px auto;
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
@@ -105,6 +109,7 @@ header .profile-image:hover {
   border-radius: 6px;
   transition: all .5s;
 }
+
 .card:hover {
   border-color: #57C09C;
 }
@@ -194,7 +199,10 @@ a.social:hover {
     max-width: 1200px;
     padding: 0 30px;
   }
-
+  
+  .card {
+  margin: 30px;
+  }
 
   main {
     padding-top: 20px;
