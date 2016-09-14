@@ -121,9 +121,22 @@ header .profile-image:hover {
   margin: auto;
 }
 
-.flex{
+.flex,
+.portfolio{
   padding: 20px;
   flex: 1;
+}
+
+.portfolio{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.portfolio img{
+  margin: 30px;
+  padding: 5px 5px 5px;
+  max-width: 300px;
 }
 
 .card {
@@ -214,7 +227,7 @@ a.social:hover {
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
   
-  .flex {
+  .flex{
       display: -ms-flexbox;      /* TWEENER - IE 10 */
       display: flex; 
       max-width: 1200px;
@@ -223,6 +236,15 @@ a.social:hover {
       margin: 0 auto;
   }
 
+  .portfolio{
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: flex; 
+    max-width: 1119px;
+    -ms-flex-pack: distribute;
+    justify-content: center;
+    margin: auto;
+  }
+  
   header {
     min-height: 470px;
   }
