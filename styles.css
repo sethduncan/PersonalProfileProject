@@ -121,10 +121,13 @@ header .profile-image:hover {
   margin: auto;
 }
 
+.container{
+  flex: 1;
+}
+
 .flex,
 .portfolio{
   padding: 20px;
-  flex: 1;
 }
 
 .portfolio{
@@ -148,6 +151,7 @@ header .profile-image:hover {
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
+  flex: 1 400px;
 }
 
 .card:hover {
@@ -170,12 +174,6 @@ ul.skills {
 
 .skills li:nth-child(odd) {
   background: #0399ff;
-}
-
-.goals{
-  display: block;
-  max-width: 300px;
-  margin: auto;
 }
 
 footer {
@@ -235,13 +233,13 @@ a.social:hover {
   
   .flex{
       display: -ms-flexbox;      /* TWEENER - IE 10 */
-      display: flex; 
+      display: flex;
       max-width: 1200px;
       -ms-flex-pack: distribute;
       justify-content: space-around;
       margin: 0 auto;
   }
-
+  
   .portfolio{
     display: -ms-flexbox;      /* TWEENER - IE 10 */
     display: flex; 
